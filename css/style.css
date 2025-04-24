@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    background-color: #1a472a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+.div__header__logo {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.div__header__titulo{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.titulo__header{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(-20deg, #626367, #fcfcfc, #d7d8da, #adb0b5) no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.nav {
+    font-size: 0.3em;
+    padding-block: 1em;
+}
+
+.nav__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__lista__item {
+    margin: 0 15px;
+}
+
+.nav__lista__item__link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav__lista__item__link:hover {
+    background-color: #40916c;
+}
+
+.sessao__inscrever {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/500');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.sessao__inscrever h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.sessao__inscrever p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.sessao__inscrever__botao {
+    background-color: #e63946;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sessao__inscrever__botao:hover {
+    background-color: #c1121f;
+}
+
+.sessao__informacao {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sessao__informacao__titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #1a472a;
+}
+
+.sessao__informacao__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 300px;
+}
+
+.card h3 {
+    color: #1a472a;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.sessao__relogio {
+    background-color: #1a472a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sessao__relogio h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.sessao__relogio__tempo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card__relogio {
+    background-color: #40916c;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 100px;
+}
+
+.card__relogio__numero {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card__relogio__titulo {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.sessao__patrocinio {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.sessao__patrocinio__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.sessao__patrocinio__card{
+    width: 150px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.rodape__conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.rodape__conteudo__coluna{
+    flex: 1;
+    min-width: 250px;
+}
+
+.rodape__conteudo__coluna h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.rodape__conteudo__coluna ul {
+    list-style: none;
+}
+
+.rodape__conteudo__coluna ul li {
+    margin-bottom: 8px;
+}
+
+.rodape__conteudo__coluna ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.rodape__conteudo__coluna ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.sessao__icones {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sessao__icones img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assinatura {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 8px 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .sessao__relogio {
+        flex-wrap: wrap;
+    }
+    
+    .rodape__conteudo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
