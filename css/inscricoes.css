@@ -6,7 +6,7 @@
   }
   
   body {
-    background: linear-gradient(135deg, #2c3e50, #27ae60);
+    background-color: #1a472a;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,6 +15,7 @@
   }
   
   .container {
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
     background-color: white;
     width: 100%;
     max-width: 600px;
@@ -24,11 +25,11 @@
   }
   
   .header {
-    background-color: #2c3e50;
+    background-color: #626367;
     color: white;
     padding: 20px;
     text-align: center;
-    border-bottom: 4px solid #27ae60;
+    /* border-bottom: 4px solid #27ae60; */
   }
   
   .header h2 {
@@ -88,7 +89,7 @@
   }
   
   .submit-btn {
-    background-color: #27ae60;
+    background-color: #1a472a;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -100,7 +101,7 @@
   }
   
   .submit-btn:hover {
-    background-color: #219653;
+    background-color: #40916c;
   }
   
   .card-deck {
